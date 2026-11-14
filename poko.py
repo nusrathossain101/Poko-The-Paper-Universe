@@ -347,7 +347,7 @@ def poko():
         glPushMatrix(); glScalef(boat, boat, boat); paperBoat(); glPopMatrix()
     glPopMatrix()
 
-# ---------------- HUD ----------------
+
 def heart(x, y):
     glColor3f(*RED)
     for cx in (x - 6, x + 6):
@@ -519,7 +519,7 @@ def Update(v):
     glutPostRedisplay()
     glutTimerFunc(16, Update, 0)
 
-# ---------------- input (Lab 5) ----------------
+
 def arrowkey(key, x, y):
     moves = {GLUT_KEY_RIGHT: (1, 0), GLUT_KEY_LEFT: (-1, 0), GLUT_KEY_UP: (0, -1), GLUT_KEY_DOWN: (0, 1)}
     if key in moves:
