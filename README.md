@@ -7,10 +7,6 @@ Guide **Poko**, a little paper character, through floating islands to reach the 
 
 The environment features pastel-colored islands, flying paper cranes, animated water, collectible paper scraps, and moving scissors.
 
-## 🎥 Project Demo
-
-*Demo video link will be added here.*
-
 ## ✨ Features
 
 - **3D Paper World:** Floating islands, paper trees, rivers, arches, and elevated platforms.
